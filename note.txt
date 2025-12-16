@@ -1,0 +1,37 @@
+syntax for middileware
+----------------------
+
+app.use((req,res,next) => {
+  console.log("this is a middileware function")
+  next();
+})
+
+req - the incoming request object
+res - the outgoing response object
+next() - A function that tells Express to move tho the next middileware or route 
+         handler.
+
+Types of middileware
+
+1.application-level middileware
+
+defined using app.use()
+they apply to the entire app or routes
+
+2. Built-in middileware 
+
+a.express.json()
+b.express.urlencoded({
+    extended:true
+})
+express.static("foldername)
+
+2.third party middileware
+
+you can install this from npm package
+
+eg.morgan, cors etc
+
+3.custom middileware 
+
+

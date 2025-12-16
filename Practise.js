@@ -1,0 +1,2 @@
+var string = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MDZlZjc5OGZlOWYzZTNiNGVlZDkwNCIsImVtYWlsIjoic2FjaGluQGdtYWlsLmNvbSIsImlhdCI6MTc2MjA2MjIxNSwiZXhwIjoxNzYyMDY5NDE1fQ.HduPpxqH99iwqJ_yaVYA2eSOPRRyNbvDo0rIO-PU5D4"
+console.log(string.split(" ").length)
