@@ -74,7 +74,8 @@ const deleteProduct = async(req,res) => {
 }
 
 const ProductDetails = (req, res) => {
-
+  const product = req.body;
+  console.log(product);
 }
 
 module.exports = {createProduct ,getAllProducts,getProductById,updateProduct,deleteProduct}
